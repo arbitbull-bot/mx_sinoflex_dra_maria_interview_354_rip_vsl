@@ -1,0 +1,107 @@
+:root {}
+
+body,
+html {
+    height: 100%;
+}
+
+header {
+
+    max-height: max-content;
+    background-image: url(../images/bgdg.jpg);
+    background-position: 10% 30%;
+}
+
+.btn:hover {
+    border-color: black !important;
+    background-color: var(--bs-red) !important;
+    color: var(--bs-yellow) !important;
+    transition: background-color .25s, border-color .25s, color .25s;
+}
+
+.highlighted {
+    color: #962d65;
+}
+
+.img-top {
+    height: 450px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.ingredient-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    background-position: 50%;
+    box-shadow: 1px 1px 4px 2px black;
+}
+
+.card {
+    height: 100%;
+}
+
+.svg-rounded {
+    height: 125px;
+    width: 125px;
+}
+
+.svg-icon {
+    height: 100px;
+    height: 100px;
+}
+
+.form-section {
+    max-height: max-content;
+    background-image: url(../images/bgdg.jpg);
+    background-position: 50% 100%;
+}
+
+.price {
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.img-bottom {
+    width: 100%;
+    height: 650px;
+    object-fit: contain;
+}
+
+input,
+select {
+    font-size: 18px !important;
+    border: 2px solid #962d65 !important;
+}
+
+input:focus,
+select:focus {
+    border-color: black !important;
+    box-shadow: 0px 0px 1px 1px white !important;
+}
+
+.accordion-button:focus {
+    color: black;
+    background-color: #962d653f !important;
+    box-shadow: 0px 0px 1px 1px #962d65 !important;
+}
+
+.accordion-button:active {
+    background-color: #962d653f !important;
+    box-shadow: 0px 0px 1px 1px #962d65 !important;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+.disclaimer {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 20px;
+}

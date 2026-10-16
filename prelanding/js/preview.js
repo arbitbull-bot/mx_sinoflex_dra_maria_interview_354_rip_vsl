@@ -1,0 +1,1 @@
+document.querySelectorAll('form').forEach(function(form){form.addEventListener('submit',function(event){event.preventDefault();var status=form.querySelector('[role="status"]');if(!status){status=document.createElement('p');status.setAttribute('role','status');form.appendChild(status);}status.textContent='Vista de demostración: los datos no se envían.';});});

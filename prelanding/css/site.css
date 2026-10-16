@@ -1,0 +1,13 @@
+html{scroll-behavior:smooth}
+.video-block{max-width:720px;margin:30px auto}
+#container_video{background:#000;border-radius:12px;overflow:hidden}
+#play h4{margin:8px 0;font-size:clamp(17px,3.5vw,23px);line-height:1.35}
+#order{padding:24px;background:#fff;border-radius:12px;text-align:center;box-sizing:border-box;box-shadow:0 4px 24px #0001;color:#171717}
+#order .product{display:block;width:100%;max-width:280px;height:auto;margin:0 auto 20px}
+#order .price-text{font-size:23px;line-height:1.7}
+#order .price-text del{color:#777}
+#order .new-price{color:#d00;font-weight:800;white-space:nowrap}
+#order .timer{font-size:32px;font-weight:800;color:#d00}
+#order button{border:0;border-radius:6px;background:#e00000;color:#fff;font-size:20px;margin-top:12px}
+#order input{border:1px solid #bbb;border-radius:6px;font-size:17px;background:#fff;color:#171717}
+@media(max-width:600px){.hero__title{overflow-wrap:anywhere}.video-block{margin:20px auto}#order{padding:18px}}
