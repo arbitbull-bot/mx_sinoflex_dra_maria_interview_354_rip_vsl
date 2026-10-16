@@ -5,14 +5,14 @@ function sendBinomEvent() {}
 
 // Чекпоинты
 var videoEvents = [
-  { time: 182, event: 3 }, // начало блока 2
-  { time: 365, event: 4 }, // начало блока 3
-  { time: 547, event: 5 }, // начало блока 4
-  { time: 729, event: 6 }, // начало блока 5
-  { time: 911, event: 7 }, // начало блока 6
-  { time: 1094, event: 8 }, // начало блока 7
+  { time: 185, event: 3 }, // начало блока 2
+  { time: 370, event: 4 }, // начало блока 3
+  { time: 555, event: 5 }, // начало блока 4
+  { time: 739, event: 6 }, // начало блока 5
+  { time: 924, event: 7 }, // начало блока 6
+  { time: 1109, event: 8 }, // начало блока 7
   { time: 1052, event: 9 }, // момент показа формы
-  { time: 1276, event: 10 } // досмотр (7/8 длины)
+  { time: 1294, event: 10 } // досмотр (7/8 длины)
 ];
 
 var event1Interval = null;
